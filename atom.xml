@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Just like to share, just enjoy!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liray.github.io/"/>
-  <updated>2014-04-27T10:22:34.162Z</updated>
+  <updated>2014-04-27T10:42:51.070Z</updated>
   <id>http://liray.github.io/</id>
   
   <author>
@@ -52,7 +52,7 @@
     <link href="http://liray.github.io/2013/08/17/linux-kernel-modules-drivers/"/>
     <id>http://liray.github.io/2013/08/17/linux-kernel-modules-drivers/</id>
     <published>2013-08-17T15:12:38.000Z</published>
-    <updated>2014-04-27T04:27:27.000Z</updated>
+    <updated>2014-04-27T10:42:13.000Z</updated>
     <content type="html"><![CDATA[<h2 id="介绍">介绍</h2>
 <ul>
 <li>Linux 是一个配备了多种硬件类型内置驱动程序的内核.</li>
@@ -342,7 +342,7 @@ Symbol version prefix <span class="comment">''</span>
 <h3 id="获得一个内核模块的信息_-_modinfo">获得一个内核模块的信息 - modinfo</h3>
 <ul>
 <li>为了获得一个模块的信息(作者, 所提供的选项), 我们可以使用<code>modinfo</code>命令.</li>
-<li>例如有关”mousedev”模块的信息:</li>
+<li>例如有关<code>mousedev</code>模块的信息:</li>
 </ul>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre>1
 2

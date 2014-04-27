@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liray.github.io/2013/08/17/linux-kernel-modules-drivers/</loc>
+    <lastmod>2013-08-17T15:12:38.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://liray.github.io/search/index.html</loc>
     <lastmod>2014-04-27T09:58:55.000Z</lastmod>
   </url>
@@ -49,11 +54,6 @@
   <url>
     <loc>http://liray.github.io/2013/07/13/the-way-to-solve-the-licence-key-was-being-undo-for-bc3/</loc>
     <lastmod>2013-07-13T07:46:29.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://liray.github.io/2013/08/17/linux-kernel-modules-drivers/</loc>
-    <lastmod>2013-08-17T15:12:38.000Z</lastmod>
   </url>
   
   <url>
