@@ -1,10 +1,10 @@
 
-  <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>Tag: 以管理员身份打开 | Raylee&#39;s Blog</title>
+    <title>search | Raylee&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Ray Lee">
@@ -63,61 +63,28 @@
       </header>
       <div id="container">
         
-
-<div class="archive-title" >
-  <h2 class="tag-icon">以管理员身份打开</h2>
-  
+<div  id="main" class="page">
+  <div id='cse' style='width:100%;text-align:center'>正在加载搜索结果，请稍等。</div>
 </div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
+<script src="http://www.google.com.hk/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+google.load('search', '1', {language : 'zh-CN',style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function(){
+  var customSearchControl = new google.search.CustomSearchControl('000219898090986553670:fpgpzqc79xu');
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse', options);
+  var match = location.search.match(/q=([^&]*)(&|$)/);
+  if(match && match[1]){
+    var search = decodeURIComponent(match[1]); 
+    customSearchControl.execute(search);
+  }
+},true);
+</script>
 
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2013/05/09/open-computer-as-administrator-add-to-computer-s-context-menu/" title="为&quot;计算机&quot;添加&quot;以管理员身份打开&quot;右键菜单, 解决 Windows 8 无法拖拽打开文件" itemprop="url">
-  
-    <h1 itemprop="name">为&quot;计算机&quot;添加&quot;以管理员身份打开&quot;右键菜单, 解决 Windows 8 无法拖拽打开文件</h1>
-    
-    <time datetime="2013-05-09T08:30:59.000Z" itemprop="datePublished">5月 9 2013</time>
-  </a>
-</section>
-
-
-  </div>
-</div>
 
       </div>
-      <footer><div id="footer" >
-	
-	<div class="line">
-		<span></span>
-		<div class="author"></div>
-	</div>
-	
-	
-	<section class="info">
-		<p> Hello, I&#39;m Ray Lee.&#39; <br/>
-			Feel free to tell me what you want, share with us, and enjoy it!</p>
-	</section>
-	 
-	<div class="social-font" class="clearfix">
-		
-		
-		
-		<a href="https://github.com/liray" target="_blank" title="github"></a>
-		
-		
-	</div>
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2012-2014 
-		
-		<a href="http://liray.github.io" target="_blank" title="Ray Lee">Ray Lee</a>
-		 · 
-		<a href="/sitemap.xml" target="_blank" title="Raylee blog Sitemap">Sitemap</a>
-		</p>
-		<p class="copyright">
-		Content is available under the <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="Creative Commons Attribution-ShareAlike 4.0 International">Creative Commons Attribution-ShareAlike 4.0 International</a> License unless otherwise noted.
-		</p>
-</div>
-</footer>
       <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
